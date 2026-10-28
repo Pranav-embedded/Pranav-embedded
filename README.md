@@ -21,7 +21,7 @@
 
 <br/>
 
-<h2 align="center">🧭 Where I Work in the Chip Design Flow</h2>
+<h2 align="center"> Where I Work in the Chip Design Flow</h2>
 
 ```mermaid
 flowchart LR
@@ -41,7 +41,7 @@ flowchart LR
 
 <br/>
 
-<h2 align="center">🚀 Featured Projects</h2>
+<h2 align="center"> Featured Projects</h2>
 
 <!-- Swap each link below with the exact repo URL -->
 <div align="center">
