@@ -59,7 +59,7 @@ flowchart LR
 
 <br/>
 
-<h2 align="center">🛠️ Toolbox</h2>
+<h2 align="center"> Toolbox</h2>
 
 <div align="center">
 <table>
