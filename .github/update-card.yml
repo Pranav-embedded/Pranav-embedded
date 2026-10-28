@@ -1,0 +1,31 @@
+# Rebuilds assets/profile-card.svg every day so the GitHub stats on it stay fresh.
+# No setup needed: it uses the built-in GITHUB_TOKEN.
+name: Update profile card
+
+on:
+  schedule: [{ cron: "30 3 * * *" }]  # every day at 03:30 UTC
+  workflow_dispatch:
+  push:
+    paths: ["scripts/build_card.py", "scripts/portrait_ascii.txt"]
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build card
+        run: python scripts/build_card.py
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-card.svg
+          git diff --staged --quiet || (git commit -m "chore: refresh profile card [skip ci]" && git push)
