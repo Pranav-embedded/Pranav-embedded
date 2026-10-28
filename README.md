@@ -117,7 +117,7 @@ flowchart LR
 
 <br/>
 
-<h2 align="center">📊 GitHub Metrics</h2>
+<h2 align="center"> GitHub Metrics</h2>
 
 <div align="center">
   <img src="assets/github-metrics.svg" alt="GitHub metrics dashboard" width="100%" />
@@ -125,7 +125,7 @@ flowchart LR
 
 <br/>
 
-<h2 align="center">🏆 Highlights</h2>
+<h2 align="center"> Highlights</h2>
 
 <div align="center">
   <img src="assets/highlights.svg" alt="CircuitVista 2K26 3rd place, IEEE Innovate and Investigate top 10, L&T EduTech VHDL course" width="100%" />
