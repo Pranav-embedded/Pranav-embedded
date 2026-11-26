@@ -1,9 +1,10 @@
+
 <div align="center">
 
 <img src="assets/banner.png" alt="Pranav Duse — VLSI Engineer: RTL Design, Verification, FPGA, Embedded" width="100%" />
 
 <a href="https://github.com/Pranav-embedded">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=7FD3FF&center=true&vCenter=true&width=760&height=45&lines=Writing+synthesizable+RTL;Building+a+5-stage+RISC-V+CPU+on+FPGA;Verilog+%7C+SystemVerilog+%7C+VHDL;Open+to+VLSI+internship+opportunities" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=7FD3FF&center=true&vCenter=true&width=760&height=45&lines=Writing+synthesizable+RTL;Designing+FIFO+and+FSM+based+RTL;Verilog+%7C+SystemVerilog+%7C+VHDL;Open+to+VLSI+internship+opportunities" alt="Typing intro" />
 </a>
 
 <br/>
@@ -21,34 +22,13 @@
 
 <br/>
 
-<h2 align="center"> Where I Work in the Chip Design Flow</h2>
-
-```mermaid
-flowchart LR
-    A["Spec"] --> B["RTL Design<br/>Verilog · VHDL"]
-    B --> C["Verification<br/>Testbenches · UVM (learning)"]
-    C --> D["Synthesis"]
-    D --> E["FPGA Build<br/>Vivado"]
-    D -.-> F["ASIC Back-end<br/>P&R · Sign-off (exploring)"]
-
-    classDef active fill:#0b4f6c,stroke:#7fd3ff,color:#ffffff,stroke-width:2px
-    classDef explore fill:#0a1620,stroke:#1aa7ec,color:#9ccbe3,stroke-dasharray:4 3
-    class A,B,C,D,E active
-    class F explore
-```
-
-<div align="center"><sub>Solid = hands-on &nbsp;·&nbsp; Dashed = exploring</sub></div>
-
-<br/>
-
 <h2 align="center"> Featured Projects</h2>
 
-<!-- Swap each link below with the exact repo URL -->
 <div align="center">
 <table>
   <tr>
-    <td><a href="https://github.com/Pranav-embedded?tab=repositories"><img src="assets/project-1.svg" width="440" alt="5-Stage RISC-V CPU" /></a></td>
-    <td><a href="https://github.com/Pranav-embedded?tab=repositories"><img src="assets/project-2.svg" width="440" alt="UART IP Core with FIFO" /></a></td>
+    <td><a href="https://github.com/Pranav-embedded/FIFO"><img src="assets/project-1.svg" width="440" alt="Synchronous FIFO" /></a></td>
+    <td><a href="https://github.com/Pranav-embedded/vending-machine"><img src="assets/project-2.svg" width="440" alt="Vending Machine Controller" /></a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/Pranav-embedded?tab=repositories"><img src="assets/project-3.svg" width="440" alt="Spider-Inspired Quadruped Robot" /></a></td>
